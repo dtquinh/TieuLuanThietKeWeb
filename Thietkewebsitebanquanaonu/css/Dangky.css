@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:1200px;
+	margin:0px auto;
+	background:#FF8204;
+}
+#body{
+	border:1px solid #F30;
+	border-radius:5px;
+	margin-left:300px;
+	margin-top:10px;
+	width:630px;
+	height:500px;
+	background:#FFC488;
+}
+#body>p{
+	border:0.5px solid #F30;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	width:619px;
+	height:36px;
+	background-color:#F30;
+	padding:5px 5px;
+	color:white;
+	font-family:Arial;
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;
+}
+#body>div>p{
+	padding-left:15px;
+}
+#yeucau{
+	padding-top:10px;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	color:black;
+}
+#body>div>input{
+	padding-top:3px;
+	padding-left:15px;
+}
+#input{
+	width:560px;
+	height:20px;
+	font-size:14px;
+	font-family:Arial;
+	padding-top:5px;
+	margin-top:5px;
+}
+#gt{
+	padding-top:5px;
+}
+#dkdv{
+	margin-top:15px;
+	font-size:14px;
+	font-weight:bold;
+}
+#dkdv a{
+	color:red;
+	text-decoration:none;
+}
+#dkdv:hover a{
+	font-size:16px;
+}
+#nut{
+	text-align:center;
+	margin-top:40px;
+}
+#trolai{
+	margin-right:10px;
+	background:#F69;
+	color:white;
+	width:90px;
+	height:35px;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+	font-weight:bold;
+	padding-right:7px;
+}
+#dangky{
+	width:120;
+	height:35px;
+	color:white;
+	background:#F30;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	padding-right:7px;
+}
+footer{
+	background-color:#FF8204;
+	width:1200px;
+	height:100px;
+	padding-top:10px;
+	margin-top:10px;
+}
+footer>p{
+	text-align:center;
+	font-size:18px;
+	margin-top:5px;
+}

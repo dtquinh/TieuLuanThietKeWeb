@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:1200px;
+	margin:0px auto;
+}
+nav{
+	width:1200px;
+	height:auto;
+	text-align:center;
+	background-image:url(../Image/nen_trogiup.PNG);
+	padding-top:25px;
+}
+#body{
+	border:1px solid #F30;
+	border-radius:5px;
+	width:350px;
+	height:370px;
+	background:#FFBF80;
+	margin-left:449px;
+	margin-top:30px;
+}
+#body>p{
+	border:0.5px solid #F30;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	font-size:24px;
+	height:40px;
+	width:349px;
+	font-weight:bold;
+	color:white;
+	background-color:#F30;
+	padding-top:10px;
+}
+#body>div#nhap{
+	margin-left:15px;
+	padding-top:15px;
+}
+#yeucau{
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	margin-top:15px;
+}
+#nhap input{
+	width:320px;
+	height:25px;
+	font-size:18px;
+	font-family:Arial;
+	margin-top:5px;
+}
+#qmk{
+	float:right;
+	margin-top:15px;
+	margin-right:15px;
+}
+#qmk a{
+	text-decoration:none;
+}
+#qmk a:hover{
+	border-bottom:1px solid #00F;
+}
+#nut{
+	text-align:center;
+	margin-top:90px;
+}
+
+#trolai{
+	background-color:#FF95FF;
+	height:27px;
+	width:90px;
+	font-size:15px;
+	color:white;
+	margin-right:10px;
+}
+
+#dn{
+	background-color:#F30;
+	color:white;
+	font-size:15px;
+	height:27px;
+	width:100px;
+}
+footer{
+	height:100px;
+	padding-top:80px;
+	margin-left:68px;
+	background-image:url(../Image/nen_trogiup.PNG);
+}
+footer>p{
+	text-align:center;
+	font-size:18px;
+	margin-top:5px;
+}

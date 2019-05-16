@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:1200px;
+	margin:0px auto;
+	background:#E1E1E1;
+}
+
+div{
+	text-align:center;
+}
+div>img{
+	width:650px;
+	height:300px;
+}
+div>p{
+	font-size:47px;
+	margin-top:15px;
+}
+div>p>span{
+	color:red;
+}
+div>p a{
+	color:red;
+}
+#mail:hover{
+	font-size:49px;
+	color:#00F;
+}
+footer{
+	text-align:center;
+	margin-top:15px;
+}
+footer>p{
+	font-size:24px;
+	padding-top:20px;
+}

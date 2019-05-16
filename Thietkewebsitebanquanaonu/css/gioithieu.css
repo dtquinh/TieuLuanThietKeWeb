@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:1200px;
+	margin:0px auto;
+	background:#E5E5E5;
+	margin-left:150px;
+}
+div{
+	width:1000px;
+}
+
+div>img{
+	float:left;
+	width:750px;
+	height:250px;
+	margin-right:10px;
+}
+div>p{
+	padding-top:5px;
+	font-size:18px;
+	padding-left:10px;
+}
+#moi{
+	color:red;
+	font-size:20px;
+	margin-top:15px;
+}
+#moi a{
+	color:#00F;
+	text-decoration:none;
+}
+#moi a:hover{
+	border-bottom:1px solid #00F;
+	font-size:22px;
+}
+footer{
+	margin-top:15px;
+}
+footer>p{
+	color:#00F;
+	font-size:17px;
+	padding-top:5px;
+
+}
